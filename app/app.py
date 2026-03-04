@@ -98,7 +98,7 @@ def main():
         if train_acc is not None:
             st.write(f"**Test accuracy:** {train_acc * 100:.2f}%")
         st.divider()
-        st.caption("PROJ_MIST · Week 3 Deliverable")
+        
 
     uploaded = st.file_uploader(
         "Upload a hand-sign image",

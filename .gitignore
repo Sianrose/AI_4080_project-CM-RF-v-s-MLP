@@ -28,6 +28,7 @@ env/
 .vscode/
 .DS_Store
 Thumbs.db
-.cursor
+.cursor/
 # Weights & Biases
 wandb/
+
