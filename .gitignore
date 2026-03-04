@@ -1,0 +1,33 @@
+# Data (large CSVs – download from Kaggle); keep the folder, ignore contents
+data/*
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts (optional: remove if you want to commit small models)
+*.joblib
+*.pt
+*.pth
+*.keras
+*.h5
+# Allow the deployed model for the Streamlit app
+!app/best_mlp_model.pt
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.cursor
+# Weights & Biases
+wandb/
